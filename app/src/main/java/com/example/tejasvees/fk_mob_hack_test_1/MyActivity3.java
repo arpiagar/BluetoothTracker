@@ -34,6 +34,8 @@ public class MyActivity3 extends Activity {
                 {
                     Toast.makeText(MyActivity3.this, "Red radiobutton checked", Toast.LENGTH_SHORT).show();
                     Log.e(TAG, "Red radiobutton checked");
+                    Intent n = new Intent(getApplicationContext(), MyActivity5.class);
+                    startActivity(n);
                 }
 
                 break;
